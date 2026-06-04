@@ -1,0 +1,13 @@
+id = "batch"
+name = "Batch"
+version = "0.11.1"
+schema_version = 1
+description = "Windows Batch/CMD file support (.bat, .cmd)"
+repository = "https://github.com/helldio/zed-batch"
+authors = ["WharfLab"]
+
+languages = ["languages/batch"]
+
+[grammars.batch]
+repository = "https://github.com/wharflab/tree-sitter-batch"
+rev = "acc7df667ec98b83ddb84b9b8568ad5067c8125b"
